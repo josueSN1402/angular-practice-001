@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "build/practice01",
+            "outputPath": "dist/practice01",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
