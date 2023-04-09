@@ -1,18 +1,19 @@
-<div class="max-w-sm min-h-full rounded-lg shadow bg-gray-800">
-  <div class="p-5 grid card-grid">
+<div class="max-w-sm min-h-full rounded-lg shadow bg-gray-800 grid">
+  <div class="py-5 px-8 grid card-grid">
     <a href="/">
       <h5 class="mb-2 text-2xl font-bold text-white">
-        {{title}}
+        {{ title }}
       </h5>
     </a>
-    <p class="mb-5 font-normal text-gray-300">
-      {{content}}
+    <p class="mb-5 font-normal text-gray-300 text-justify">
+      {{ content }}
     </p>
-    <a
-      href="/"
-      class="px-3 py-2 text-sm font-medium text-center text-white rounded-lg focus:outline-none bg-blue-600 hover:bg-blue-700 focus:ring-blue-800"
-    >
-      Read more
-    </a>
+    <div class="flex justify-end">
+      <button
+        class="px-5 py-2 text-sm font-medium text-center text-white rounded-lg bg-blue-600 hover:bg-blue-700 focus:ring-blue-800"
+      >
+        Read more
+      </button>
+    </div>
   </div>
 </div>
